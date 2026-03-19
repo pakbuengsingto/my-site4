@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>ค้นหาข้อมูลนักเรียน</title>
+</head>
+<body>
+
+<div style="text-align:center; margin-top:50px;">
+  <h2>ค้นหาข้อมูลนักเรียน</h2>
+
+  <form action="https://a2401.obec.expert/services" method="POST">
+    
+    <input 
+      name="idcard" 
+      type="text" 
+      maxlength="13"
+      placeholder="กรอกเลขบัตรประชาชน 13 หลัก"
+      required
+    />
+    
+    <input 
+      name="schoolid" 
+      type="hidden" 
+      value="24010089"
+    />
+
+    <br><br>
+
+    <button type="submit">ค้นหา</button>
+
+  </form>
+</div>
+
+</body>
+</html>
